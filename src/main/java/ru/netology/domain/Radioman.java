@@ -6,7 +6,7 @@ public class Radioman {
     int lastRadioStation = 9;
     int currentVolume;
     int minVolume = 0;
-    int maxVolume = 10;
+    int maxVolume = 100;
 
     public int getCurrentRadioStation() {
 

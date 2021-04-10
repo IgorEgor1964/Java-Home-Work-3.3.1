@@ -13,7 +13,7 @@ class RadioTest {
         assertEquals(9, radio.lastRadioStation);
         assertEquals(0, radio.currentVolume);
         assertEquals(0, radio.minVolume);
-        assertEquals(10, radio.maxVolume);
+        assertEquals(100, radio.maxVolume);
     }
 
     @Test
@@ -81,7 +81,7 @@ class RadioTest {
         ru.netology.domain.Radioman radio = new ru.netology.domain.Radioman();
         radio.setCurrentVolume(10);
         radio.volumeUp();
-        assertEquals(10, radio.getCurrentVolume());
+        assertEquals(11, radio.getCurrentVolume());
     }
 
     @Test
